@@ -28,7 +28,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 (async () => {
 
   console.log(`Trophy And Crown Hack Safe! [ReEdit]
-By : ${chalk.bold('Yinyan#1581')} - Credit : @Rexxy
+By : ${chalk.bold('xDast#8745')} - Credit : @dkmpostor & @Eskey
 `);
 
   const auth = rs.question('Enter Authentication Code! : ');
@@ -40,7 +40,7 @@ By : ${chalk.bold('Yinyan#1581')} - Credit : @Rexxy
     if (!result) {
 
       console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Authentication Code Not Valid`));
-      break;
+      
 
     } else if (result.includes('User')) {
 
